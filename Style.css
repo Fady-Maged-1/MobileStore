@@ -16,7 +16,7 @@ body{
 .Links a{
     color: white;
     text-decoration: none;
-    padding: 5px 15px;
+    padding: 1% 5%;
     /* خليت لون اللينك ابيض و شلت الخط الابيض اللي تحته */
 }
 .Links a:hover,
@@ -28,8 +28,8 @@ body{
    background-color: #EE6268; 
    color: azure;
    border: 0;
-   padding: 5px 15px;
-   border-radius: 15px;
+   padding: 1% 5%;
+   border-radius: 10%;
    /* ظبطت زرار الساين ان  */
 }
 h1{
@@ -41,11 +41,11 @@ ul li a{
     text-decoration: none;
     color: azure;
     background-color: #f4b41a;
-    border-radius: 15px;
+    border-radius: 10%;
     display: block;              /* يخلي الرابط ياخد مساحة كاملة */
-    width: 200px;
+   width: 50%;
     /* the size */
-    padding: 20px;
+     padding: 5%;
     text-align: center;
     /* الكلام يبقي فالنص  */
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -76,9 +76,10 @@ ul li a:hover {
   }
   .card {
     position: relative;
-    height: 300px;
-    width: 250px;
-    border-radius: 15px;
+    height: 60%;
+    width: 70%;
+    max-width: 90%;
+    border-radius: 10%;
     background-size: cover;
     background-position: center;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
@@ -93,11 +94,11 @@ ul li a:hover {
 .card a {
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
-    padding: 10px 20px;
-    border-radius: 10px;
+     padding: 3% 5%;
+    border-radius: 8%;
     font-weight: bold;
     position: absolute;
-    bottom: 20px;
+    bottom: 5%;
     left: 50%;
     transform: translate(-50%, 0);
     transition: all 0.3s ease;
