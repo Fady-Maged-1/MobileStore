@@ -1,0 +1,121 @@
+.top{
+    background-color: #143d59;
+    /* لون البانر اللي فوق */
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* تظبيط اماكن العناصر  */
+}
+body{
+    margin: 0;
+    /* عشان ميبقاش فيه مسافه بيضه */
+    background-color: floralwhite;
+}
+.Links a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+    /* خليت لون اللينك ابيض و شلت الخط الابيض اللي تحته */
+}
+.Links a:hover,
+.Links button:hover{
+    color:#f4b41a ;
+    /* خليت يظهر اللون ده لما يحصل هوفر */
+}
+.Links button{
+   background-color: #EE6268; 
+   color: azure;
+   border: 0;
+   padding: 5px 15px;
+   border-radius: 15px;
+   /* ظبطت زرار الساين ان  */
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    font-family:  sans-serif;
+}
+ul li a{
+    text-decoration: none;
+    color: azure;
+    background-color: #f4b41a;
+    border-radius: 15px;
+    display: block;              /* يخلي الرابط ياخد مساحة كاملة */
+    width: 200px;
+    /* the size */
+    padding: 20px;
+    text-align: center;
+    /* الكلام يبقي فالنص  */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+
+}
+ul{
+    list-style: none;
+    display: flex; 
+    /* عشان يكونو جنب بعض  */
+    justify-content: center;
+    /* in the center of the page */
+    
+}
+ul li a:hover {
+    background-color: #e09c09;
+    transform: scale(1.05);
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 أعمدة */
+    gap: 10px; /* مسافة بين العناصر */
+    /* عشان الصف يبقي فيه تلاته بس */
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    gap: 30px;
+  }
+  .card {
+    position: relative;
+    height: 300px;
+    width: 250px;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card a {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.card:hover a {
+    transform: translate(-50%, -10px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
